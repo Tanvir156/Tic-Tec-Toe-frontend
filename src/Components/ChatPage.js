@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "./ChatPage.css";
 import Square from "./Square";
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://tic-tec-toe.onrender.com";
 var socket;
 const ChatPage = () => {
   const [name, setName] = useState("");
